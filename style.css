@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 30px 60px 30px;
+  display: block;
+}
+
+.main-div {
+    border: 1px solid #000;
+    width: 60%;
+}
+
+.accordion {
+  width: auto;
+}
+
+p {
+  padding: 1rem;
+  background-color: yellow;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  /* width: auto; */
+  padding: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+span {
+  text-align: right;
+  margin-left: 200px;
+  cursor: pointer;
+}
